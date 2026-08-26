@@ -1,1 +1,6 @@
+Primarily a release to fix a lockup bug related to GPS logging.  Unlrelated to the bug fix I have also
+added limited support for last-command recall.  Also, based on lots of good feecback
+there are a considerable number of manual updates and changes too.
 
+* Command line recall with backspace support.  Not inline editing (yet).
+* Fix interrupt conflict that locked the Voter2 if GPS io-level logging was enabled.
